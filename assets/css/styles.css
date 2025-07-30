@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: url("../img/Warehouse.jpg");
+  background-size: cover;           
+  background-repeat: no-repeat;    
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.flex-container {
+  display: flex;
+  height: 100vh;     
+  width: 100vw;      
+}
+
+
+
+.d1-maroon {
+  background-color: rgba(128, 0, 0, 0.911);
+  border-right: 10px solid yellow;
+  height: 100vh;
+  width: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+
+}
+
+.d1-maroon .ispsc-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.d1-maroon .ispsc-logo img {
+  width: 70%;
+}
+
+.d2-yellow {
+    background-color: rgba(255, 255, 255, 0.829);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.d2-yellow .title h1 {
+    font-weight: bolder;
+}
+
